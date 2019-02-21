@@ -5,7 +5,14 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-
+ @font-face {
+     font-family: 'Smartblocks';
+     src: url('../font/SmartblocksRegular.woff2') format('woff2'),
+         url('../font/SmartblocksRegular.woff') format('woff'),
+         url('../font/SmartblocksRegular.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+ }
 
 html {
   font-family: sans-serif; /* 1 */
